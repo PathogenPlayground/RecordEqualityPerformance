@@ -2,7 +2,7 @@
 
 This benchmark compares the performance of the overloaded `==` operator and the `Equals` method on C# 9 records.
 
-Here's the current benchmark results from my machine:
+Here's the current benchmark results from my machine as built with Roslyn 3.8.0-3.20420.3 (f2e2f2a2) and running on .NET 5 preview 7:
 
 |         Method |       Mean |     Error |    StdDev | Ratio | RatioSD |
 |--------------- |-----------:|----------:|----------:|------:|--------:|
